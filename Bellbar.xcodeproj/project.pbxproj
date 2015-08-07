@@ -1,0 +1,426 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		135A2B7D1B751B2C003D56E8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 135A2B7C1B751B2C003D56E8 /* AppDelegate.swift */; };
+		135A2B7F1B751B2D003D56E8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 135A2B7E1B751B2D003D56E8 /* ViewController.swift */; };
+		135A2B821B751B2E003D56E8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 135A2B801B751B2E003D56E8 /* Main.storyboard */; };
+		135A2B841B751B2E003D56E8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 135A2B831B751B2E003D56E8 /* Images.xcassets */; };
+		135A2B871B751B2E003D56E8 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 135A2B851B751B2E003D56E8 /* LaunchScreen.xib */; };
+		135A2B931B751B2F003D56E8 /* BellbarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 135A2B921B751B2F003D56E8 /* BellbarTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		135A2B8D1B751B2E003D56E8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 135A2B6F1B751B2A003D56E8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 135A2B761B751B2B003D56E8;
+			remoteInfo = Bellbar;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		135A2B771B751B2B003D56E8 /* Bellbar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bellbar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		135A2B7B1B751B2C003D56E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		135A2B7C1B751B2C003D56E8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		135A2B7E1B751B2D003D56E8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		135A2B811B751B2E003D56E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		135A2B831B751B2E003D56E8 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		135A2B861B751B2E003D56E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		135A2B8C1B751B2E003D56E8 /* BellbarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BellbarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		135A2B911B751B2F003D56E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		135A2B921B751B2F003D56E8 /* BellbarTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BellbarTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		135A2B741B751B2B003D56E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		135A2B891B751B2E003D56E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		135A2B6E1B751B2A003D56E8 = {
+			isa = PBXGroup;
+			children = (
+				135A2B791B751B2B003D56E8 /* Bellbar */,
+				135A2B8F1B751B2E003D56E8 /* BellbarTests */,
+				135A2B781B751B2B003D56E8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		135A2B781B751B2B003D56E8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				135A2B771B751B2B003D56E8 /* Bellbar.app */,
+				135A2B8C1B751B2E003D56E8 /* BellbarTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		135A2B791B751B2B003D56E8 /* Bellbar */ = {
+			isa = PBXGroup;
+			children = (
+				135A2B7C1B751B2C003D56E8 /* AppDelegate.swift */,
+				135A2B7E1B751B2D003D56E8 /* ViewController.swift */,
+				135A2B801B751B2E003D56E8 /* Main.storyboard */,
+				135A2B831B751B2E003D56E8 /* Images.xcassets */,
+				135A2B851B751B2E003D56E8 /* LaunchScreen.xib */,
+				135A2B7A1B751B2B003D56E8 /* Supporting Files */,
+			);
+			path = Bellbar;
+			sourceTree = "<group>";
+		};
+		135A2B7A1B751B2B003D56E8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				135A2B7B1B751B2C003D56E8 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		135A2B8F1B751B2E003D56E8 /* BellbarTests */ = {
+			isa = PBXGroup;
+			children = (
+				135A2B921B751B2F003D56E8 /* BellbarTests.swift */,
+				135A2B901B751B2F003D56E8 /* Supporting Files */,
+			);
+			path = BellbarTests;
+			sourceTree = "<group>";
+		};
+		135A2B901B751B2F003D56E8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				135A2B911B751B2F003D56E8 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		135A2B761B751B2B003D56E8 /* Bellbar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 135A2B961B751B2F003D56E8 /* Build configuration list for PBXNativeTarget "Bellbar" */;
+			buildPhases = (
+				135A2B731B751B2B003D56E8 /* Sources */,
+				135A2B741B751B2B003D56E8 /* Frameworks */,
+				135A2B751B751B2B003D56E8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Bellbar;
+			productName = Bellbar;
+			productReference = 135A2B771B751B2B003D56E8 /* Bellbar.app */;
+			productType = "com.apple.product-type.application";
+		};
+		135A2B8B1B751B2E003D56E8 /* BellbarTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 135A2B991B751B2F003D56E8 /* Build configuration list for PBXNativeTarget "BellbarTests" */;
+			buildPhases = (
+				135A2B881B751B2E003D56E8 /* Sources */,
+				135A2B891B751B2E003D56E8 /* Frameworks */,
+				135A2B8A1B751B2E003D56E8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				135A2B8E1B751B2E003D56E8 /* PBXTargetDependency */,
+			);
+			name = BellbarTests;
+			productName = BellbarTests;
+			productReference = 135A2B8C1B751B2E003D56E8 /* BellbarTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		135A2B6F1B751B2A003D56E8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "Roshan Patel";
+				TargetAttributes = {
+					135A2B761B751B2B003D56E8 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					135A2B8B1B751B2E003D56E8 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 135A2B761B751B2B003D56E8;
+					};
+				};
+			};
+			buildConfigurationList = 135A2B721B751B2A003D56E8 /* Build configuration list for PBXProject "Bellbar" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 135A2B6E1B751B2A003D56E8;
+			productRefGroup = 135A2B781B751B2B003D56E8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				135A2B761B751B2B003D56E8 /* Bellbar */,
+				135A2B8B1B751B2E003D56E8 /* BellbarTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		135A2B751B751B2B003D56E8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				135A2B821B751B2E003D56E8 /* Main.storyboard in Resources */,
+				135A2B871B751B2E003D56E8 /* LaunchScreen.xib in Resources */,
+				135A2B841B751B2E003D56E8 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		135A2B8A1B751B2E003D56E8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		135A2B731B751B2B003D56E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				135A2B7F1B751B2D003D56E8 /* ViewController.swift in Sources */,
+				135A2B7D1B751B2C003D56E8 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		135A2B881B751B2E003D56E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				135A2B931B751B2F003D56E8 /* BellbarTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		135A2B8E1B751B2E003D56E8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 135A2B761B751B2B003D56E8 /* Bellbar */;
+			targetProxy = 135A2B8D1B751B2E003D56E8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		135A2B801B751B2E003D56E8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				135A2B811B751B2E003D56E8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		135A2B851B751B2E003D56E8 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				135A2B861B751B2E003D56E8 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		135A2B941B751B2F003D56E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		135A2B951B751B2F003D56E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		135A2B971B751B2F003D56E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Bellbar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		135A2B981B751B2F003D56E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Bellbar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		135A2B9A1B751B2F003D56E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = BellbarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Bellbar.app/Bellbar";
+			};
+			name = Debug;
+		};
+		135A2B9B1B751B2F003D56E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = BellbarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Bellbar.app/Bellbar";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		135A2B721B751B2A003D56E8 /* Build configuration list for PBXProject "Bellbar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				135A2B941B751B2F003D56E8 /* Debug */,
+				135A2B951B751B2F003D56E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		135A2B961B751B2F003D56E8 /* Build configuration list for PBXNativeTarget "Bellbar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				135A2B971B751B2F003D56E8 /* Debug */,
+				135A2B981B751B2F003D56E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		135A2B991B751B2F003D56E8 /* Build configuration list for PBXNativeTarget "BellbarTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				135A2B9A1B751B2F003D56E8 /* Debug */,
+				135A2B9B1B751B2F003D56E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 135A2B6F1B751B2A003D56E8 /* Project object */;
+}
