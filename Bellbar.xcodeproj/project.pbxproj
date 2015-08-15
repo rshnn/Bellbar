@@ -13,6 +13,7 @@
 		135A2B841B751B2E003D56E8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 135A2B831B751B2E003D56E8 /* Images.xcassets */; };
 		135A2B871B751B2E003D56E8 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 135A2B851B751B2E003D56E8 /* LaunchScreen.xib */; };
 		135A2B931B751B2F003D56E8 /* BellbarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 135A2B921B751B2F003D56E8 /* BellbarTests.swift */; };
+		135A2B9D1B754736003D56E8 /* Brain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 135A2B9C1B754736003D56E8 /* Brain.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		135A2B8C1B751B2E003D56E8 /* BellbarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BellbarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		135A2B911B751B2F003D56E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		135A2B921B751B2F003D56E8 /* BellbarTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BellbarTests.swift; sourceTree = "<group>"; };
+		135A2B9C1B754736003D56E8 /* Brain.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Brain.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,11 +79,9 @@
 		135A2B791B751B2B003D56E8 /* Bellbar */ = {
 			isa = PBXGroup;
 			children = (
-				135A2B7C1B751B2C003D56E8 /* AppDelegate.swift */,
 				135A2B7E1B751B2D003D56E8 /* ViewController.swift */,
+				135A2B9C1B754736003D56E8 /* Brain.swift */,
 				135A2B801B751B2E003D56E8 /* Main.storyboard */,
-				135A2B831B751B2E003D56E8 /* Images.xcassets */,
-				135A2B851B751B2E003D56E8 /* LaunchScreen.xib */,
 				135A2B7A1B751B2B003D56E8 /* Supporting Files */,
 			);
 			path = Bellbar;
@@ -90,6 +90,9 @@
 		135A2B7A1B751B2B003D56E8 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				135A2B7C1B751B2C003D56E8 /* AppDelegate.swift */,
+				135A2B831B751B2E003D56E8 /* Images.xcassets */,
+				135A2B851B751B2E003D56E8 /* LaunchScreen.xib */,
 				135A2B7B1B751B2C003D56E8 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -213,6 +216,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				135A2B7F1B751B2D003D56E8 /* ViewController.swift in Sources */,
+				135A2B9D1B754736003D56E8 /* Brain.swift in Sources */,
 				135A2B7D1B751B2C003D56E8 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

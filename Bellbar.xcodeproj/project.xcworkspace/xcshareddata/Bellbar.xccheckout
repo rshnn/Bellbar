@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>731D598B-6D8E-404C-A5EE-B24A3CFAECDA</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Bellbar</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>363B9D60DCA881A765E6C78EDF280E63E9AE1937</key>
+		<string>https://github.com/rshnn/Bellbar.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Bellbar.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>363B9D60DCA881A765E6C78EDF280E63E9AE1937</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/rshnn/Bellbar.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>363B9D60DCA881A765E6C78EDF280E63E9AE1937</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>363B9D60DCA881A765E6C78EDF280E63E9AE1937</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Bellbar</string>
+		</dict>
+	</array>
+</dict>
+</plist>
